@@ -5,7 +5,7 @@ jdk:
   - openjdk8
 #  - openjdk9
 #  - openjdk10
-  - openjdk11
+  - openjdk10
 
 install: echo $JAVA_HOME && which javac && mvn -B -fae install
 
