@@ -1,11 +1,14 @@
 language: java
 # sudo: required
-
+arch:
+  - amd64
+  - ppc64le
+os: linux
 jdk:
   - openjdk8
 #  - openjdk9
 #  - openjdk10
-  - openjdk10
+  - openjdk11
 
 install: echo $JAVA_HOME && which javac && mvn -B -fae install
 
