@@ -2,7 +2,6 @@ language: java
 # sudo: required
 arch:
   - amd64
-  - ppc64le
 os: linux
 jdk:
   - openjdk8
