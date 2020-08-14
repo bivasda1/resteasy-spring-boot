@@ -10,14 +10,14 @@ before_install:
 jobs:
   include:
     - os: linux
-      arch: arm64
+      arch: amd64
       language: java
       addons:
         apt:
-          packages: openjdk-8-jdk openjfx maven
-      env: PLATFORMS="linux-arm64"
+          packages: openjdk-8-jdk maven
+      env: PLATFORMS="linux-x86_64"
       install:
-        - export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-arm64"
+        - export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
     - os: linux
       arch: ppc64le
       language: java
