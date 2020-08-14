@@ -1,4 +1,4 @@
-# checking build.
+# checking build. ppc64le
 dist: xenial
 cache:
   directories:
